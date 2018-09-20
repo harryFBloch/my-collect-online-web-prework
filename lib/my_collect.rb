@@ -5,6 +5,7 @@ def my_collect(array)
     while i < array.length 
     yield(array[i])
     newArray << array[i]
+    i += 1
     end
   else 
     #empty array
