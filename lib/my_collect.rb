@@ -14,8 +14,8 @@ def my_collect(array)
 end
 
 collection = ['ruby', 'javascript', 'python', 'objective-c']
-newArray = my_collect(collection) do |name|
-  name.split(" ").first
+newArray = my_collect(collection) do |lang|
+  lang.upcase
 end
 
 puts newArray
