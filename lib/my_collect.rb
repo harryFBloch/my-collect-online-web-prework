@@ -13,8 +13,8 @@ def my_collect(array)
   return newArray
 end
 
-array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
-newArray = my_collect(array) do |name|
+collection = ['ruby', 'javascript', 'python', 'objective-c']
+newArray = my_collect(collection) do |name|
   name.split(" ").first
 end
 
